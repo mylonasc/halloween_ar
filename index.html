@@ -5,14 +5,21 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
-        <a-marker preset="hiro">
+        <!--- <a-marker preset="hiro"> ---?
+        <a-nft 
+          type="nft"
+          url="assets/vcv_marker/"
+          smooth="true"
+          smoothCount="3"
+          smoothTolerance=".01"
+          smoothThreshold="5"
             <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
             <a-entity
             position="0 0 0"
             scale="0.05 0.05 0.05"
             gltf-model="assets/simple_invader.gltf"
             ></a-entity>
-        </a-marker>
+        </a-nft>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
