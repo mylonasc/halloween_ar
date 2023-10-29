@@ -11,3 +11,11 @@ messing around with AR.JS for a Halloween costume
 [link](https://ar-js-org.github.io/AR.js-Docs/image-tracking/)
 
 * some demos with WebXR/AR.JS [link](https://shirinstar.github.io/webAR_experiments_page/)
+
+## To run 
+Start a simple server after cloning for dev
+```shell
+python3 -m http.server
+```
+
+For serving in HTTPS an easy standard approach is to host static websites in github pages.
