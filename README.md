@@ -18,4 +18,7 @@ Start a simple server after cloning for dev
 python3 -m http.server
 ```
 
+## TODO
+* Extend for light estimation: [link](https://github.com/immersive-web/lighting-estimation/blob/main/lighting-estimation-explainer.md)
+
 For serving in HTTPS an easy standard approach is to host static websites in github pages.
