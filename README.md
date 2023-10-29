@@ -9,3 +9,5 @@ messing around with AR.JS for a Halloween costume
 
 * tutorial for image tracking 
 [link](https://ar-js-org.github.io/AR.js-Docs/image-tracking/)
+
+* some demos with WebXR/AR.JS [link](https://shirinstar.github.io/webAR_experiments_page/)
